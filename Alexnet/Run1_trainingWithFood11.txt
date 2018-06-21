@@ -1,0 +1,66 @@
+# Learning params
+learning_rate = 0.01
+num_epochs = 10
+batch_size = 128
+
+# Network params
+dropout_rate = 0.5
+num_classes = 11
+train_layers = ['fc8', 'fc7']
+
+(tf-cpu) c:\Users\WOLVCI10\Desktop\TensorFlow\AlexNet\finetune_alexnet_with_tensorflow-5d751d62eb4d7149f4e3fd465febf8f07d4cea9d>py
+thon finetune.py
+2018-06-19 23:46:28.176359: I C:\tf_jenkins\home\workspace\rel-win\M\windows\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:1
+37] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2018-06-19 23:46:40.019359 Start training...
+2018-06-19 23:46:40.019359 Open Tensorboard at --logdir .\tmp\food11
+2018-06-19 23:46:40.019359 Epoch number: 1
+2018-06-20 00:05:43.476759 Start validation
+2018-06-20 00:08:57.367159 Validation Accuracy = 0.6887
+2018-06-20 00:08:57.382759 Saving checkpoint of model...
+2018-06-20 00:09:00.526359 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch1.ckpt
+2018-06-20 00:09:00.526359 Epoch number: 2
+2018-06-20 00:27:59.582159 Start validation
+2018-06-20 00:31:13.560359 Validation Accuracy = 0.6785
+2018-06-20 00:31:13.575959 Saving checkpoint of model...
+2018-06-20 00:31:16.342159 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch2.ckpt
+2018-06-20 00:31:16.342159 Epoch number: 3
+2018-06-20 00:50:15.225959 Start validation
+2018-06-20 00:53:30.520759 Validation Accuracy = 0.6977
+2018-06-20 00:53:30.520759 Saving checkpoint of model...
+2018-06-20 00:53:33.370559 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch3.ckpt
+2018-06-20 00:53:33.370559 Epoch number: 4
+2018-06-20 01:12:31.242759 Start validation
+2018-06-20 01:15:45.673559 Validation Accuracy = 0.7055
+2018-06-20 01:15:45.689159 Saving checkpoint of model...
+2018-06-20 01:15:48.357159 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch4.ckpt
+2018-06-20 01:15:48.357159 Epoch number: 5
+2018-06-20 01:34:33.115359 Start validation
+2018-06-20 01:37:47.469359 Validation Accuracy = 0.7079
+2018-06-20 01:37:47.484959 Saving checkpoint of model...
+2018-06-20 01:37:50.290959 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch5.ckpt
+2018-06-20 01:37:50.290959 Epoch number: 6
+2018-06-20 01:56:48.807359 Start validation
+2018-06-20 02:00:03.763959 Validation Accuracy = 0.7079
+2018-06-20 02:00:03.779559 Saving checkpoint of model...
+2018-06-20 02:00:06.858759 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch6.ckpt
+2018-06-20 02:00:06.858759 Epoch number: 7
+2018-06-20 02:19:05.180959 Start validation
+2018-06-20 02:22:19.642959 Validation Accuracy = 0.7061
+2018-06-20 02:22:19.642959 Saving checkpoint of model...
+2018-06-20 02:22:22.593359 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch7.ckpt
+2018-06-20 02:22:22.593359 Epoch number: 8
+2018-06-20 02:41:21.083159 Start validation
+2018-06-20 02:44:35.828359 Validation Accuracy = 0.7115
+2018-06-20 02:44:35.843959 Saving checkpoint of model...
+2018-06-20 02:44:38.885959 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch8.ckpt
+2018-06-20 02:44:38.885959 Epoch number: 9
+2018-06-20 03:03:36.244959 Start validation
+2018-06-20 03:06:51.277159 Validation Accuracy = 0.7073
+2018-06-20 03:06:51.292759 Saving checkpoint of model...
+2018-06-20 03:06:53.961359 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch9.ckpt
+2018-06-20 03:06:53.961359 Epoch number: 10
+2018-06-20 03:25:52.308159 Start validation
+2018-06-20 03:29:07.815559 Validation Accuracy = 0.7175
+2018-06-20 03:29:07.815559 Saving checkpoint of model...
+2018-06-20 03:29:10.950159 Model checkpoint saved at .\tmp\finetune_alexnet\model_epoch10.ckpt
