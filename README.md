@@ -14,5 +14,5 @@ Input size analysis:
 
 # Alexnet 
 
-
-![alt text](https://github.com/cmwolverton/AI-Food-Classification/Alexnet/AlexnetConfiguration.png "Alexnet architecture")
+Alexnet Architecture Diagram
+![alt text](https://github.com/cmwolverton/AI-Food-Classification/blob/master/Alexnet/AlexnetConfiguration.png "Alexnet architecture")
