@@ -12,3 +12,7 @@ Run the JupyterNote 'Food-Classification-Exploratory-Data-Analysis'. Output imag
 Input size analysis: 
 ![alt text](https://github.com/shbharath/AI-Food-Classification/blob/master/food-classification-eda-images/input_size_exploration.png "Sizing the Image Analysis")
 
+# Alexnet 
+
+
+![alt text](https://github.com/cmwolverton/AI-Food-Classification/Alexnet/AlexnetConfiguration.png "Alexnet architecture")
