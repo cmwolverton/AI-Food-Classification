@@ -16,7 +16,6 @@ Input size analysis:
 
 Alexnet Architecture Diagram
 ![alt text](https://github.com/cmwolverton/AI-Food-Classification/blob/master/Alexnet/AlexnetConfiguration.png "Alexnet architecture")
-
 Alexnet is well know as the 2012 winner of the ImageNet Large Scale Visual Recognition Challenge created by 
 the SuperVision group, consisting of Alex Krizhevsky, Geoffrey Hinton, and Ilya Sutskever.  Its creation was a 
 major breakthrough in the computer vision field because it ushered in the use of convolutional neural networks.  
@@ -26,7 +25,7 @@ Our team chose to base its work on Alexnet because of significance in the field,
 compared to the most recent innovations in network architectures.  We considered the simplicity a positive 
 aspect for providing insights to students.
 
-We took advantage to transfer learning by initializing the network with weights from the ImageNet training.  
+We took advantage of transfer learning by initializing the network with weights learned by the ImageNet training.  
 We finetuned the network to classify images from the Food-11 dataset.  We allowed only the weights of the 
 final two fully connected layers of the network to update as the network was trained.  The decision to take
 this approach was motivated by the intuition that the convolutional layers converged to filters which produce 
